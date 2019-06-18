@@ -25,8 +25,6 @@ public class Main {
 
     public static final Predicate<BigInteger> notDivBy7 =
         (a) -> !(a.mod(BigInteger.valueOf(7)).equals(BigInteger.valueOf(0)));
-    public static final Predicate<BigInteger> divBy7 =
-        (a) -> a.mod(BigInteger.valueOf(7)).equals(BigInteger.valueOf(0));
 
     public static void main(String[] args) {
 	// write your code here
